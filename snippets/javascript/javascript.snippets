@@ -242,7 +242,9 @@ snippet de
 	debugger;
 # console.log
 snippet cl
-	console.log(${0});
+	console.log("${0}");
+snippet cll
+	console.log("${1:variable}: ", $1);
 # console.debug
 snippet cd
 	console.debug(${0});
