@@ -86,6 +86,14 @@ endsnippet
 
 # Snippets for Console Debug Output
 
+snippet cl "console.log" b
+console.log("${0}");
+endsnippet
+
+snippet cll "console.verbose log" b
+console.log("${1:variable}: ", $1);
+endsnippet
+
 snippet ca "console.assert" b
 console.assert(${1:assertion}, ${2:"${3:message}"});
 endsnippet
